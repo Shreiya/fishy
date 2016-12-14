@@ -45,6 +45,14 @@ h6 {
     padding-bottom: 20%;
 }
 
+.intro-message1 {
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 6em;
+  font-weight: 600;
+}
+
 .intro-message > h1 {
     margin: 0;
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
@@ -54,6 +62,17 @@ h6 {
 
 .intro-message > h3 {
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
+}
+
+#theHow {
+
+}
+
+video {
+  height: 410px !important;
+  width: 410px !important;
+  border: 5px solid grey;
+  border-radius: 5px;
 }
 
 li {
@@ -71,7 +90,7 @@ li {
     }
 
     ul.intro-social-buttons > li {
-        display: block;
+        display: inline-block;
         margin-bottom: 20px;
         padding: 0;
     }
@@ -117,9 +136,10 @@ li {
 
 .banner {
     padding: 100px 0;
-    color: grey;
+    color: black;
     background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
+    display: block;
 }
 
 .banner h2 {
@@ -130,16 +150,21 @@ li {
 
 .banner ul {
     margin-bottom: 0;
+    display: block;
 }
 
 .banner-social-buttons {
-    float: right;
+    float: inherit;
     margin-top: 0;
 }
 
 @media(max-width:1199px) {
+    .banner {
+      display: block;
+    }
+
     ul.banner-social-buttons {
-        float: left;
+        float: inherit;
         margin-top: 15px;
     }
 }
@@ -152,7 +177,8 @@ li {
     }
 
     ul.banner-social-buttons > li {
-        display: block;
+      clear: both;
+        display: inline-block;
         margin-bottom: 20px;
         padding: 0;
     }
