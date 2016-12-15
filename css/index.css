@@ -35,13 +35,13 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: grey;
+    background: #FF9100;
     background-size: cover;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
+    padding-top: 5%;
     padding-bottom: 20%;
 }
 
@@ -64,8 +64,8 @@ h6 {
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
 }
 
-#theHow {
-
+.section-heading h2 {
+color: #FF9100 !important;
 }
 
 video {
@@ -146,6 +146,11 @@ li {
     margin: 0;
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
     font-size: 3em;
+    color:
+}
+
+.intro-message1 h1 {
+  color: #FF9100;
 }
 
 .banner ul {
