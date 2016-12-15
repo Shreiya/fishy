@@ -41,8 +41,9 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: -5%;
+    padding-top: 5%;
     padding-bottom: 20%;
+    margin-top: -6%;
 }
 
 .intro-message1 {
