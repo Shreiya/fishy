@@ -161,6 +161,7 @@ li {
 }
 
 .banner ul {
+    margin-top: 10px;
     margin-bottom: 0;
     display: block;
 }
